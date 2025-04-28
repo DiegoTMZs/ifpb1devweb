@@ -3,72 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Sobre mim</title>
+
+    <style>
+        .titulo{
+                background-color: yellow;
+                font-size: 25px;
+                text-align: center;
+        }
+        .corpo{
+               text-aling: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Diego Tomaz Estrela</h1>
-    <img src="static\minhaFoto.jpeg" width="200" height="270" alt="Minha Foto">
-    <hr>
-    <p>
-        Sou um futuro cientista da computação, com uma base tecnica ainda em desenvolvimento. Gosto muito de criar
-        servidores no meu tempo livre, como hobbie, o intuito é me divertir junto aos meus amigos durante e pos
-        desenvolvimento desses servidores. Hoje me encontro cursando ciência da computação na Faculdade Católica da
-        Paraíba, e tambem, cursando tecnico em informatica na Instituição Federal da Paraíba. Um pensamento sobre
-        o futuro é que iniciarei minha empresa de desenvolvimento aqui no Brasil com o foco em ampliar o mercado de
-        trabalho na área onde estudo. Essa ideia surgiu a partir da minha percepção de mercado, onde vejo que essa área
-        não possui um grande foco no meu país.
-    </p>
-    <hr>
-    <ul>
-        <li>
-            <a href="https://github.com/DiegoTMZs">Desenvolvedor</a>
-        </li>
-        <li>
-            <a href="https://catolicapb.com.br/">Cientista da Computação</a>
-        </li>
-        <li>
-            <a href="https://www.ifpb.edu.br/">Tecnico em Informática</a>
-        </li>
-        <li>
-            <a href="https://www.minecraft.net/">Player</a>
-        </li>
-    </ul>
-    <hr>
-    <h3>Sugestões?</h3>
-    <form action="/sugestao" method="post">
-        <label>Qual a sua sugestão?</label>
-        <input name="sugestao">
-        <button>Enviar</button>
-    </form>
-    <hr>
-    <table>
-        <caption>Minhas info.</caption>
-        <thead>
-            <th>Nome</th>
-            <th>Peso</th>
-            <th>Idade</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Diego</td>
-                <td>56</td>
-                <td>19</td>
-            </tr>
-        </tbody>
-    </table>
-    <form action="/informacoes_usuario" method="post">
-        <label>Informe seu nome</label>
-        <br>
-        <input name="nome_usuario">
-        <br>
-        <label>Informe seu peso</label>
-        <br>
-        <input name="peso_usuario">
-        <br>
-        <label>Informe sua idade</label>
-        <br>
-        <input name="idade_usuario">
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="titulo">
+        <h1>Diego Tomaz Estrela</h1>
+    </div>
+    <div>
+        <img src="static\minhaFoto.jpeg" width="200" height="270" alt="Minha Foto">
+        <hr>
+        <p>
+            Sou um futuro cientista da computação, com uma base tecnica ainda em desenvolvimento. Gosto muito de criar
+            servidores no meu tempo livre, como hobbie, o intuito é me divertir junto aos meus amigos durante e pos
+            desenvolvimento desses servidores. Hoje me encontro cursando ciência da computação na Faculdade Católica da
+            Paraíba, e tambem, cursando tecnico em informatica na Instituição Federal da Paraíba. Um pensamento sobre
+            o futuro é que iniciarei minha empresa de desenvolvimento aqui no Brasil com o foco em ampliar o mercado de
+            trabalho na área onde estudo. Essa ideia surgiu a partir da minha percepção de mercado, onde vejo que essa
+            área não possui um grande foco no meu país.
+        </p>
+        <hr>
+        <ul>
+            <li>
+                <a href="https://github.com/DiegoTMZs">Desenvolvedor</a>
+            </li>
+            <li>
+                <a href="https://catolicapb.com.br/">Cientista da Computação</a>
+            </li>
+            <li>
+                <a href="https://www.ifpb.edu.br/">Tecnico em Informática</a>
+            </li>
+            <li>
+                <a href="https://www.minecraft.net/">Player</a>
+            </li>
+        </ul>
+        <hr>
+        <h3>Sugestões?</h3>
+        <form action="/sugestao" method="post">
+            <label>Qual a sua sugestão?</label>
+            <input name="sugestao">
+            <button>Enviar</button>
+        </form>
+        <hr>
+        <table>
+            <caption>Minhas info.</caption>
+            <thead>
+                <th>Nome</th>
+                <th>Peso</th>
+                <th>Idade</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Diego</td>
+                    <td>56</td>
+                    <td>19</td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="/informacoes_usuario" method="post">
+            <label>Informe seu nome</label>
+            <br>
+            <input name="nome_usuario">
+            <br>
+            <label>Informe seu peso</label>
+            <br>
+            <input name="peso_usuario">
+            <br>
+            <label>Informe sua idade</label>
+            <br>
+            <input name="idade_usuario">
+            <br>
+            <button>Enviar</button>
+        </form>
+    </div>
 </body>
 </html>
