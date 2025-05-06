@@ -16,7 +16,7 @@ def receber_sugestao():
     sugestao = request.form.get("sugestao")
 
     print(sugestao)
-    return render_template("index.html")
+    return render_template("pagina_de_sugestao.html")
 
 @app.route("/informacoes_usuario", methods=["POST"])
 def receber_informacoes_usuario():
