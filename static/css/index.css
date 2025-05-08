@@ -12,7 +12,10 @@ body{
            color: white;
     }
     .corpo p{
+             font-size: 20px;
              text-align: justify;
+             padding-left: 5cm;
+             padding-right: 4cm;
     }
     .corpo img{
             margin-left: 850px;
