@@ -24,4 +24,8 @@ def receber_informacoes_usuario():
     peso_usuario = request.form.get("peso_usuario")
     idade_usuario = request.form.get("idade_usuario")
     return render_template("index.html")
+
+@app.route("/curriculo", methods=["POST"])
+def mostrar_curriculo():
+    return render_template("curriculo-lattes.html")
 app.run()
